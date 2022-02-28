@@ -16,12 +16,7 @@ Team members: Rochelle Li, Muhammad Jawaid, Yucheng Liu
 
 - Use Apache Bench to generate test data for your pipeline.
 
-- Produce an analytics report where you provide a description of your pipeline
-  and some basic analysis of the events. Explaining the pipeline is key for this project!
-
-- Submit your work as a git PR as usual. AFTER you have received feedback you have to merge 
-  the branch yourself and answer to the feedback in a comment. Your grade will not be 
-  complete unless this is done!
+- Produce an analytics report.
 
 ## Files 
 - docker-compose.yml is docker compose file for setting up multiple services.
