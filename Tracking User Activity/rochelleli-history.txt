@@ -1,0 +1,32 @@
+    1  rm ~/.bash_history
+    2  exit
+    3  cd w205/project-2-rochelleli/
+    4  docker-compose up -d
+    5  docker-compose exec spark bash
+    6  docker-compose exec spark env PYSPARK_DRIVER_PYTHON=jupyter PYSPARK_DRIVER_PYTHON_OPTS='notebook --no-browser --port 8890 --ip 0.0.0.0 --allow-root --notebook-dir=/w205/' pyspark
+    7  docker-compose down
+    8  docker-compose up -d
+    9  docker-compose up -d
+   10  docker-compose down
+   11  docker-compose down
+   12  cd w205/project-2-rochelleli/
+   13  docker-compose up -d
+   14  cd w205/project-2-rochelleli/
+   15  ls
+   16  docker-compose up -d
+   17  docker-compose down
+   18  docker-compose up -d
+   19  cd w205/project-2-rochelleli/
+   20  ls
+   21  docker-compose up -d
+   22  docker-compose exec spark bash
+   23  docker-compose exec spark env PYSPARK_DRIVER_PYTHON=jupyter PYSPARK_DRIVER_PYTHON_OPTS='notebook --no-browser --port 8890 --ip 0.0.0.0 --allow-root' pyspark
+   24  docker-compose logs -f kafka
+   25  docker-compose exec cloudera hadoop fs -ls /tmp/
+   26  docker-compose exec kafka kafka-topics --create --topic assessments --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+   27  docker-compose exec mids bash -c "cat /w205/project-2-rochelleli/assessment-attempts-20180128-121051-nested.json | jq '.[]' -c | kafkacat -P -b kafka:29092 -t assessments"
+   28  docker-compose exec spark env PYSPARK_DRIVER_PYTHON=jupyter PYSPARK_DRIVER_PYTHON_OPTS='notebook --no-browser --port 8890 --ip 0.0.0.0 --allow-root --notebook-dir=/w205/' pyspark
+   29  docker-compose exec cloudera hadoop fs -ls /tmp/
+   30  docker-compose exec spark env PYSPARK_DRIVER_PYTHON=jupyter PYSPARK_DRIVER_PYTHON_OPTS='notebook --no-browser --port 8890 --ip 0.0.0.0 --allow-root --notebook-dir=/w205/' pyspark
+   31  docker-compose exec cloudera hadoop fs -ls /tmp/
+   32  history > rochelleli-history.txt
