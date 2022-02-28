@@ -1,0 +1,25 @@
+#!/usr/bin/bash
+
+#docker-compose up -d
+
+#sleep 10
+
+#docker-compose exec cloudera hadoop fs -ls /tmp/
+
+docker-compose exec kafka kafka-topics --create --topic swords --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+
+docker-compose exec kafka kafka-topics --create --topic shields --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+
+docker-compose exec kafka kafka-topics --create --topic potions --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+
+docker-compose exec kafka kafka-topics --create --topic guilds --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+
+docker-compose exec kafka kafka-topics --create --topic players --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+
+docker-compose exec kafka kafka-topics --create --topic swords_md --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+
+docker-compose exec kafka kafka-topics --create --topic shields_md --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+
+docker-compose exec kafka kafka-topics --create --topic potions_md --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+
+docker-compose exec mids env FLASK_APP=/w205/Project-3-mjawaid1/game_api.py flask run --host 0.0.0.0

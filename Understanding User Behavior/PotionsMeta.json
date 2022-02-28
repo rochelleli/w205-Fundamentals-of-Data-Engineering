@@ -1,0 +1,16 @@
+[ {
+    "Inventory_ID": "SH001",
+    "Potion_Name": "superman",
+    "Price": "100"
+},
+{
+    "Inventory_ID": "SH002",
+    "Potion_Name": "ironman",
+    "Price": "60"
+},
+{
+    "Inventory_ID": "SH003",
+    "Potion_Name": "beauty",
+    "Price": "50"
+}
+]

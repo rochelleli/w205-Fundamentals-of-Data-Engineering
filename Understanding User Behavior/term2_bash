@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+
+cd ~/w205/Project-3-mjawaid1/
+
+docker-compose exec mids kafkacat -C -b kafka:29092 -t swords -o beginning

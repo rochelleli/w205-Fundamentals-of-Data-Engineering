@@ -1,0 +1,33 @@
+[ {
+    "Inventory_ID": "SW001",
+    "Sword_Name": "dragonfire",
+    "Sword_Type": "Iron",
+    "Sword_Length": "42",
+    "Sword_Weight": "5",
+    "Price": "45"
+},
+{
+    "Inventory_ID": "SW002",
+    "Sword_Name": "excalibur",
+    "Sword_Type": "Diamond",
+    "Sword_Length": "50",
+    "Sword_Weight": "6",
+    "Price": "60"
+},
+{
+    "Inventory_ID": "SW003",
+    "Sword_Name": "petrock",
+    "Sword_Type": "Stone",
+    "Sword_Length": "35",
+    "Sword_Weight": "4",
+    "Price": "35"
+},
+{
+    "Inventory_ID": "SW004",
+    "Sword_Name": "splinter",
+    "Sword_Type": "Wooden",
+    "Sword_Length": "30",
+    "Sword_Weight": "3",
+    "Price": "30"
+}
+]

@@ -1,0 +1,22 @@
+[ {
+    "Inventory_ID": "SH001",
+    "Shield_Name": "bubble",
+    "Shield_Category": "Strategic",
+    "Shield_Weight": "1",
+    "Price": "80"
+},
+{
+    "Inventory_ID": "SH002",
+    "Shield_Name": "captainamerica",
+    "Shield_Category": "Tactical",
+    "Shield_Weight": "5",
+    "Price": "70"
+},
+{
+    "Inventory_ID": "SH003",
+    "Shield_Name": "aegis",
+    "Shield_Category": "Agile",
+    "Shield_Weight": "4",
+    "Price": "4"
+}
+]
