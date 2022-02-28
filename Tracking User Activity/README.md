@@ -28,4 +28,3 @@ Used Jupyter notebook instance with pyspark kernel.
 - rochelleli-history.txt - history of  console 
 - docker-compose.yml - docker file used
 - project-2-rochelleli.ipynb - Jupyter notebook
-- assessment-attempts-20180128-121051-nested.json - data file
