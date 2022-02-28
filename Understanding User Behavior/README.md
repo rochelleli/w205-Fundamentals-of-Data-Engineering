@@ -9,7 +9,7 @@ Team members: Rochelle Li, Muhammad Jawaid, Yucheng Liu
 
 ## Tasks
 - Instrument your API server to log events to Kafka
-- 
+
 - Assemble a data pipeline to catch these events: use Spark streaming to filter
   select event types from Kafka, land them into HDFS/parquet to make them
   available for analysis using Presto. 
